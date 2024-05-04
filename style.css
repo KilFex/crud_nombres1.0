@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Pacifico", cursive;
+    background: url(https://img.freepik.com/fotos-premium/fondo-pantalla-muchos-gatos-ellos-cara-gato_902639-34287.jpg?w=740);
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header{
+    background-color: lightblue;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.nombres{
+    padding: 20px 0;
+}
+.mostrar ul{
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+button:hover{
+    background-color: pink;
+}
+
+.mostrar{
+    text-align: center;
+    background-color: #9b9ba3;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+}   
+input{
+    background-color: #cfb858;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
